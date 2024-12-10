@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Enumeration;
 
-public class SKJDAS {
+public class DAS {
     public static void main(String[] args) {
         if (args.length < 2) {
             throw new RuntimeException("usage: SKJDAS <port> <number>");
