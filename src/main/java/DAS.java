@@ -60,6 +60,7 @@ public class DAS {
                         int avg = getAverage(mem);
                         System.out.println("Average: " + avg);
                         broadcast(socket,BigInteger.valueOf(avg).toByteArray(),port);
+                        mem.remove(number);
                     } else if (val == -1) {
                         System.out.println(val);
                         broadcast(socket,BigInteger.valueOf(val).toByteArray(),port);
